@@ -1,0 +1,84 @@
+.ds-post-body {
+    background-color: #2f3542;
+}
+
+.section-gray {
+    background: #e5e5e5;
+}
+
+.ds-nav-link {
+    color: #34495e;
+}
+
+
+/* Header / Banner Section */
+
+.bx-logo-padding {
+    padding-bottom: 50px;
+}
+
+.page-header {
+    padding-top: 60px;
+}
+
+
+/* Card Backgrounds */
+
+.ds-cards {
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    text-align: center
+}
+
+
+}
+
+/* Text Colors */
+.text-recipe {
+    color: #F67280;
+}
+.text-travel {
+    color: #17B978;
+}
+.text-review {
+    color: #734488;
+}
+.text-local {
+    color: #1B5A7A
+}
+.card-title {
+    color: #fffff9;
+}
+p,
+.title {
+    color: #ecf0f1;
+}
+
+/* MF Hero Main Page */
+
+/* Background Colors  */
+.mf-section-bg-lt-gray {
+    background-color: #2f3542;
+}
+
+/* Media Queries */
+@media (min-width: 576px) {
+    .bx-logo-padding {
+        padding-bottom: 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .bx-logo-padding {
+        padding-bottom: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .bx-logo-padding {
+        padding-bottom: 50px;
+    }
+}
