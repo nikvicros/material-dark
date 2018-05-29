@@ -16603,7 +16603,7 @@ small,
 .footer-big h4 a,
 .media .media-heading,
 .media .media-heading a {
-    color: #34495e;
+    color: #fffff9;
     text-decoration: none
 }
 
@@ -20294,7 +20294,7 @@ thead.thead-inverse th,
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.56);
+    background-color: rgba(0, 0, 0, 0.15);
     border-radius: 1px
 }
 
@@ -21895,16 +21895,16 @@ select.selectpicker {
 
 .presentation-page .header-filter:after,
 .index-page .header-filter:after {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7d2cc+0,304352+100 */
-    background: #d7d2cc;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#65686b+0,2f3542+100 */
+    background: #65686b;
     /* Old browsers */
-    background: -moz-linear-gradient(left, #d7d2cc 0%, #304352 100%);
+    background: -moz-linear-gradient(left, #65686b 0%, #2f3542 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #d7d2cc 0%, #304352 100%);
+    background: -webkit-linear-gradient(left, #65686b 0%, #2f3542 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    background: linear-gradient(to right, #65686b 0%, #2f3542 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d7d2cc', endColorstr='#304352', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#65686b', endColorstr='#2f3542', GradientType=1);
     /* IE6-9 */
 }
 

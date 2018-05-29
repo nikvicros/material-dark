@@ -6,10 +6,6 @@
     background: #e5e5e5;
 }
 
-.ds-nav-link {
-    color: #34495e;
-}
-
 
 /* Header / Banner Section */
 
@@ -58,8 +54,23 @@ p,
 /* MF Hero Main Page */
 
 /* Background Colors  */
-.mf-section-bg-lt-gray {
-    background-color: #888888;
+.mf-section-bg-dark-gray {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#65686b+0,2f3542+100 */
+    
+    background: #65686b;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(left, #65686b 0%, #2f3542 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(left, #65686b 0%, #2f3542 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to right, #65686b 0%, #2f3542 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#65686b', endColorstr='#2f3542', GradientType=1);
+    /* IE6-9 */
 }
 
 /* Media Queries */
