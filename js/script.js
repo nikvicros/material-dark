@@ -1,25 +1,12 @@
-//init DateTimePickers
-materialKit.initFormExtendedDatetimepickers();
-
-// Sliders Init
-materialKit.initSliders();
-
-
-
 
 $(document)
     .ready(function () {
-
-
-
 
     //init DateTimePickers
     materialKit.initFormExtendedDatetimepickers();
 
     // Sliders Init
     materialKit.initSliders();
-
-
 
 
         $('#twitter').sharrre({
