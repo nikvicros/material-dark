@@ -27,6 +27,8 @@
     background-size: 100%;
 }
 
+.ds-post {}
+
 
 /* Card Backgrounds */
 
@@ -40,20 +42,20 @@
 
 /* Text Colors */
 
-.text-recipe {
+.text-universe {
     color: #F67280;
 }
 
-.text-travel {
+.text-humanity {
     color: #17B978;
 }
 
-.text-review {
-    color: #734488;
+.text-theories {
+    color: #7e598f;
 }
 
-.text-local {
-    color: #1B5A7A
+.text-mysteries {
+    color: rgb(35, 146, 158)
 }
 
 .card-title {
