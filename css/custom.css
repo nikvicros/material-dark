@@ -1,3 +1,9 @@
+/* Global */
+
+body {
+    scroll-behavior: smooth;
+}
+
 .ds-post-body {
     background-color: #2f3542;
 }
@@ -27,7 +33,10 @@
     background-size: 100%;
 }
 
-.ds-post {}
+.ds-post-header {
+    background-image: url('../img/control-grid.jpg');
+    background-size: 100%;
+}
 
 
 /* Card Backgrounds */
