@@ -38,6 +38,11 @@ body {
     background-size: 100%;
 }
 
+.ds-cat {
+    background-image: url('../img/bg/cat-bg.jpg');
+    background-size: 100%;
+}
+
 
 /* Card Backgrounds */
 
