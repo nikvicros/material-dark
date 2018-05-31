@@ -1109,7 +1109,7 @@ pre code {
 .col-xl-auto {
     position: relative;
     width: 100%;
-    min-height: 1px;
+    min-height: 2px;
     padding-right: 15px;
     padding-left: 15px
 }
@@ -4102,7 +4102,7 @@ tbody.collapse.show {
 .btn-group-vertical>.btn+.btn-group,
 .btn-group-vertical>.btn-group+.btn,
 .btn-group-vertical>.btn-group+.btn-group {
-    margin-top: -1px;
+    margin-top: -2px;
     margin-left: 0
 }
 
@@ -4594,7 +4594,7 @@ tbody.collapse.show {
 }
 
 .nav-tabs .dropdown-menu {
-    margin-top: -1px;
+    margin-top: -2px;
     border-top-left-radius: 0;
     border-top-right-radius: 0
 }
@@ -6497,7 +6497,7 @@ button.close {
 
 .bs-popover-top .arrow::after,
 .bs-popover-auto[x-placement^="top"] .arrow::after {
-    bottom: 1px;
+    bottom: 2px;
     border-top-color: #fff
 }
 
@@ -6529,7 +6529,7 @@ button.close {
 
 .bs-popover-right .arrow::after,
 .bs-popover-auto[x-placement^="right"] .arrow::after {
-    left: 1px;
+    left: 2px;
     border-right-color: #fff
 }
 
@@ -6558,7 +6558,7 @@ button.close {
 
 .bs-popover-bottom .arrow::after,
 .bs-popover-auto[x-placement^="bottom"] .arrow::after {
-    top: 1px;
+    top: 2px;
     border-bottom-color: #fff
 }
 
@@ -6602,7 +6602,7 @@ button.close {
 
 .bs-popover-left .arrow::after,
 .bs-popover-auto[x-placement^="left"] .arrow::after {
-    right: 1px;
+    right: 2px;
     border-left-color: #fff
 }
 
@@ -8142,8 +8142,8 @@ button.bg-dark:focus {
 .bootstrap-datetimepicker-widget table th.prev::after,
 .bootstrap-datetimepicker-widget table th.next::after {
     position: absolute;
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2px;
     padding: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
@@ -9829,7 +9829,7 @@ button:focus {
 .btn {
     position: relative;
     padding: 12px 30px;
-    margin: .3125rem 1px;
+    margin: .3125rem 2px;
     font-size: .75rem;
     font-weight: 400;
     line-height: 1.42857;
@@ -11758,9 +11758,9 @@ fieldset[disabled][disabled] .btn-group-raised .btn,
 .btn.btn-fab,
 .btn.btn-just-icon {
     font-size: 24px;
-    height: 41px;
-    min-width: 41px;
-    width: 41px;
+    height: 42px;
+    min-width: 42px;
+    width: 42px;
     padding: 0;
     overflow: hidden;
     position: relative;
@@ -11845,15 +11845,15 @@ fieldset[disabled][disabled] .btn-group-raised .btn,
     left: 0;
     top: 0;
     height: 100%;
-    line-height: 41px;
+    line-height: 42px;
     font-size: 20px
 }
 
 .btn-just-icon.btn-lg,
 .btn-group-lg>.btn-just-icon.btn {
     font-size: 24px;
-    height: 41px;
-    min-width: 41px;
+    height: 42px;
+    min-width: 42px;
     width: 41px
 }
 
@@ -11982,7 +11982,7 @@ label {
 
 .main-raised {
     margin: -60px 30px 0;
-    border-radius: 1px;
+    border-radius: 2px;
     -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)
 }
@@ -12325,7 +12325,7 @@ label {
 
 .separator-line {
     background-color: #EEE;
-    height: 1px;
+    height: 2px;
     width: 100%;
     display: block
 }
@@ -12503,8 +12503,8 @@ fieldset[disabled] .form-group.is-focused .form-check .form-check-label {
 
 .form-check .form-check-input:checked+.form-check-sign .check:before {
     color: #fff;
-    -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
-    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+    -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 12px;
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 12px;
     -webkit-animation: checkbox-on .3s forwards;
     animation: checkbox-on .3s forwards
 }
@@ -12553,30 +12553,30 @@ fieldset[disabled] .form-check .form-check-input,
 
 @-webkit-keyframes checkbox-on {
     0% {
-        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px;
+        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 12px;
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px
     }
     50% {
-        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px;
+        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 12px;
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px
     }
     100% {
-        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 12px;
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px
     }
 }
 
 @keyframes checkbox-on {
     0% {
-        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px;
+        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 12px;
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px
     }
     50% {
-        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px;
+        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 12px;
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px
     }
     100% {
-        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+        -webkit-box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 12px;
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px
     }
 }
@@ -12633,7 +12633,7 @@ fieldset[disabled] .form-check .form-check-input,
     border: 0;
     margin-bottom: 30px;
     margin-top: 30px;
-    border-radius: 1px;
+    border-radius: 2px;
     color: rgba(0, 0, 0, 0.87);
     background: #fff;
     width: 100%;
@@ -12727,7 +12727,7 @@ fieldset[disabled] .form-check .form-check-input,
 }
 
 .card .card-header {
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 1rem 15px;
     margin-left: 15px;
     margin-right: 15px;
@@ -12765,7 +12765,7 @@ fieldset[disabled] .form-check .form-check-input,
 
 .card .card-header.card-header-image img {
     width: 100%;
-    border-radius: 1px;
+    border-radius: 2px;
     pointer-events: none;
     -webkit-box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)
@@ -13112,8 +13112,8 @@ fieldset[disabled] .form-group.is-focused .form-check .form-check-label {
 .form-check .form-check-label span {
     display: block;
     position: absolute;
-    left: -1px;
-    top: -1px;
+    left: -2px;
+    top: -2px;
     -webkit-transition-duration: .2s;
     transition-duration: .2s
 }
@@ -15751,7 +15751,7 @@ textarea {
 .nav-tabs,
 .nav-pills {
     border: 0;
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 0 15px
 }
 
@@ -15782,7 +15782,7 @@ textarea {
 
 .navbar {
     border: 0;
-    border-radius: 1px;
+    border-radius: 2px;
     padding: .625rem 0;
     margin-bottom: 20px;
     color: #555;
@@ -15814,7 +15814,7 @@ textarea {
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
-    border-radius: 1px;
+    border-radius: 2px;
     line-height: 20px
 }
 
@@ -16245,7 +16245,7 @@ textarea {
     border-radius: 30px!important;
     -webkit-transition: all .3s;
     transition: all .3s;
-    padding: 0 11px;
+    padding: 0 12px;
     margin: 0 3px;
     min-width: 30px;
     height: 30px;
@@ -16595,15 +16595,19 @@ small,
 .card-title a,
 .info-title,
 .info-title a,
+.media .media-heading,
+.media .media-heading a {
+    color: #fffff9;
+    text-decoration: none
+}
+
 .footer-brand,
 .footer-brand a,
 .footer-big h5,
 .footer-big h5 a,
 .footer-big h4,
-.footer-big h4 a,
-.media .media-heading,
-.media .media-heading a {
-    color: #fffff9;
+.footer-big h4 a {
+    color: #2f3542;
     text-decoration: none
 }
 
@@ -16685,7 +16689,7 @@ h2.title {
 
 .nav-tabs {
     border: 0;
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 0 15px
 }
 
@@ -16693,7 +16697,7 @@ h2.title {
     color: #fff;
     border: 0;
     margin: 0;
-    border-radius: 1px;
+    border-radius: 2px;
     line-height: 24px;
     text-transform: uppercase;
     font-size: 12px;
@@ -16869,7 +16873,7 @@ h2.title {
     line-height: 1.5em;
     background: #fff;
     border: 0;
-    border-radius: 1px;
+    border-radius: 2px;
     -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
     color: #555
@@ -16921,7 +16925,7 @@ h2.title {
 .modal-dialog .modal-content {
     -webkit-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
-    border-radius: 1px;
+    border-radius: 2px;
     border: 0
 }
 
@@ -17160,7 +17164,7 @@ h2.title {
     font-size: 24px;
     position: relative;
     margin-top: -4px;
-    top: 1px;
+    top: 2px;
     margin-right: 12px;
     opacity: .5
 }
@@ -19335,7 +19339,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .table>thead>tr>th {
-    border-bottom-width: 1px;
+    border-bottom-width: 2px;
     font-size: 1.0625rem;
     font-weight: 300
 }
@@ -19492,7 +19496,7 @@ thead.thead-inverse th,
     border: 0;
     margin-bottom: 30px;
     margin-top: 30px;
-    border-radius: 1px;
+    border-radius: 2px;
     color: rgba(0, 0, 0, 0.87);
     background: #fff;
     width: 100%;
@@ -19586,7 +19590,7 @@ thead.thead-inverse th,
 }
 
 .card .card-header {
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 1rem 15px;
     margin-left: 15px;
     margin-right: 15px;
@@ -19624,7 +19628,7 @@ thead.thead-inverse th,
 
 .card .card-header.card-header-image img {
     width: 100%;
-    border-radius: 1px;
+    border-radius: 2px;
     pointer-events: none;
     -webkit-box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)
@@ -20337,7 +20341,7 @@ thead.thead-inverse th,
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
     position: absolute;
     background-color: #fff;
-    border-radius: 1px;
+    border-radius: 2px;
     top: 0;
     left: 0;
     -webkit-box-pack: center;
@@ -20681,9 +20685,9 @@ thead.thead-inverse th,
 .bootstrap-datetimepicker-widget table th.prev::after,
 .bootstrap-datetimepicker-widget table th.next::after {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+    width: 2px;
+    height: 2px;
+    margin: -2px;
     padding: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
@@ -20837,7 +20841,7 @@ thead.thead-inverse th,
 
 .bootstrap-datetimepicker-widget .picker-switch {
     text-align: center;
-    border-radius: 1px;
+    border-radius: 2px;
     font-size: .875rem
 }
 
@@ -20857,7 +20861,7 @@ thead.thead-inverse th,
     line-height: 2.5;
     height: 2.5em;
     width: 100%;
-    border-radius: 1px;
+    border-radius: 2px;
     margin: 2px 0!important
 }
 
@@ -20895,7 +20899,7 @@ thead.thead-inverse th,
 
 .bootstrap-datetimepicker-widget table th.prev span,
 .bootstrap-datetimepicker-widget table th.next span {
-    border-radius: 1px;
+    border-radius: 2px;
     height: 27px;
     width: 27px;
     line-height: 28px;
@@ -20933,7 +20937,7 @@ thead.thead-inverse th,
 }
 
 .bootstrap-datetimepicker-widget table td>div {
-    border-radius: 1px;
+    border-radius: 2px;
     height: 54px;
     line-height: 54px;
     width: 54px;
@@ -21064,7 +21068,7 @@ thead.thead-inverse th,
 .table-condensed>tfoot>tr>th,
 .table-condensed>thead>tr>td,
 .table-condensed>thead>tr>th {
-    padding: 1px;
+    padding: 2px;
     text-align: center;
     z-index: 1;
     cursor: pointer
@@ -21203,7 +21207,7 @@ thead.thead-inverse th,
 .noUi-vertical .noUi-handle:before,
 .noUi-vertical .noUi-handle:after {
     width: 14px;
-    height: 1px;
+    height: 2px;
     left: 6px;
     top: 14px
 }
@@ -21434,7 +21438,7 @@ select.selectpicker {
 }
 
 .bootstrap-select.btn-group .dropdown-menu {
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 0;
     min-width: 100%;
     -webkit-box-sizing: border-box;
@@ -21886,7 +21890,7 @@ select.selectpicker {
     padding: 10px 18px;
     top: -3px;
     background: #fff;
-    border-radius: 1px;
+    border-radius: 2px;
     color: #444;
     line-height: 22px;
     -webkit-box-shadow: 0 5px 5px -2px rgba(31, 31, 31, 0.4);
@@ -21996,7 +22000,7 @@ select.selectpicker {
 .presentation-page .section-sections img,
 .index-page .section-sections img {
     width: 100%;
-    border-radius: 1px;
+    border-radius: 2px;
     -webkit-transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
     transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
@@ -22024,7 +22028,7 @@ select.selectpicker {
 
 .presentation-page .section-examples .card img,
 .index-page .section-examples .card img {
-    border-radius: 1px;
+    border-radius: 2px;
     width: 100%
 }
 
@@ -22327,7 +22331,7 @@ select.selectpicker {
 }
 
 .product-page .tab-content img {
-    border-radius: 1px;
+    border-radius: 2px;
     max-width: 300px;
     height: auto
 }
@@ -22361,7 +22365,7 @@ select.selectpicker {
     display: block;
     border: 1px solid transparent;
     background: transparent;
-    border-radius: 1px;
+    border-radius: 2px;
     opacity: .8
 }
 
@@ -22373,7 +22377,7 @@ select.selectpicker {
 }
 
 .product-page .flexi-nav>li a img {
-    border-radius: 1px;
+    border-radius: 2px;
     width: 100%;
     height: auto;
     text-align: center
@@ -22407,7 +22411,7 @@ select.selectpicker {
 }
 
 .signup-page .card-signup {
-    border-radius: 1px;
+    border-radius: 2px;
     -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     margin-bottom: 100px;
@@ -22803,7 +22807,7 @@ footer ul li a {
     font-weight: 500;
     font-size: 12px;
     text-transform: uppercase;
-    border-radius: 1px;
+    border-radius: 2px;
     text-decoration: none;
     position: relative;
     display: block
@@ -23160,7 +23164,7 @@ footer .pull-center {
 }
 
 .pricing-1 .card-separator {
-    width: 1px;
+    width: 2px;
     display: block;
     height: 100%;
     background-color: rgba(153, 153, 153, 0.2);
@@ -23427,7 +23431,7 @@ footer .pull-center {
         width: calc(100% - 30px);
         content: "";
         display: block;
-        height: 1px;
+        height: 2px;
         margin-left: 15px;
         background-color: #e5e5e5
     }

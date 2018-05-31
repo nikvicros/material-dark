@@ -17,6 +17,16 @@
     padding-top: 60px;
 }
 
+.sub-page-header {
+    height: 40vh;
+    overflow: hidden
+}
+
+.ds-about {
+    background-image: url('../img/bg/ds-bg-5.jpg');
+    background-size: 100%;
+}
+
 
 /* Card Backgrounds */
 
@@ -28,69 +38,78 @@
 }
 
 
-}
-
 /* Text Colors */
+
 .text-recipe {
     color: #F67280;
 }
+
 .text-travel {
     color: #17B978;
 }
+
 .text-review {
     color: #734488;
 }
+
 .text-local {
     color: #1B5A7A
 }
+
 .card-title {
     color: #fffff9;
 }
+
 p,
 .title {
     color: #ecf0f1;
 }
+
 .ds-footer-title {
     color: #2f3542;
 }
 
+
 /* MF Hero Main Page */
 
+
 /* Background Colors  */
+
 .mf-section-bg-dark-gray {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#65686b+0,2f3542+100 */
-    
     background: #65686b;
     /* Old browsers */
-    
     background: -moz-linear-gradient(left, #65686b 0%, #2f3542 100%);
     /* FF3.6-15 */
-    
     background: -webkit-linear-gradient(left, #65686b 0%, #2f3542 100%);
     /* Chrome10-25,Safari5.1-6 */
-    
     background: linear-gradient(to right, #65686b 0%, #2f3542 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#65686b', endColorstr='#2f3542', GradientType=1);
     /* IE6-9 */
 }
 
+
 /* Media Queries */
+
 @media (min-width: 576px) {
     .bx-logo-padding {
         padding-bottom: 50px;
     }
 }
 
+
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
     .bx-logo-padding {
         padding-bottom: 50px;
     }
 }
 
+
 /* Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
     .bx-logo-padding {
         padding-bottom: 50px;
